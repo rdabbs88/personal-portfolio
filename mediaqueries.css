@@ -6,6 +6,15 @@
     .about-containers {
         flex-wrap: wrap;
     }
+    
+    #projects,
+    .experience-details-container {
+        margin-bottom: 8rem;
+    }
+    /*
+    #contact {
+        margin-top: 6rem;
+    }*/
 }
 
 /* When the screen size is lower than 1200 pixels, the desktop navigation will 
@@ -53,7 +62,7 @@ disappear, and the hamburger menu will show up (be displayed) */
     }
 }
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 600px) {
     #contact,
     footer {
         height: 40vh;
