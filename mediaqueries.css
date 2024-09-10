@@ -53,7 +53,7 @@ disappear, and the hamburger menu will show up (be displayed) */
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 525px) {
     #contact,
     footer {
         height: 40vh;
