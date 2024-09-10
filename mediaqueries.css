@@ -25,11 +25,14 @@ disappear, and the hamburger menu will show up (be displayed) */
     .section-container {
         display: block;
     }
+    
     /*
     #socials-container {
         position: relative;
-        
+        top: 1rem;
+        margin-bottom: 3rem;
     } */
+
     .arrow {
         display: none;
     }
@@ -40,7 +43,7 @@ disappear, and the hamburger menu will show up (be displayed) */
     section {
         margin: 0 5%;
     }
-    .section__pic-contianer {
+    .section__pic-container {
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
