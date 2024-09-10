@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
     #profile {
         height: 83vh;
         margin-bottom: 6rem;
@@ -25,6 +25,11 @@ disappear, and the hamburger menu will show up (be displayed) */
     .section-container {
         display: block;
     }
+    /*
+    #socials-container {
+        position: relative;
+        
+    } */
     .arrow {
         display: none;
     }
