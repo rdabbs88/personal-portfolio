@@ -397,6 +397,7 @@ article .icon {
 }
 
 .project-btn {
+    width: 10rem;
     color: black;
     border-color: rgb(163, 163, 163);
 }
