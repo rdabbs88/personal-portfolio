@@ -387,8 +387,10 @@ article .icon {
 
 .project-img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;   
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    object-fit: cover;
 }
 
 .project-title {
@@ -397,7 +399,7 @@ article .icon {
 }
 
 .project-btn {
-    width: 10rem;
+    width: 80%;
     color: black;
     border-color: rgb(163, 163, 163);
 }
