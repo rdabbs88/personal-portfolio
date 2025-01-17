@@ -243,6 +243,13 @@ section {
     gap: 1rem;
 }
 
+.btn-project-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: column;
+}
+
 .btn {
     font-weight: 600;
     transition: all 300ms ease;
