@@ -163,7 +163,7 @@ a:hover {
 
 section {
     padding-top: 4vh;
-    height: 96vh;
+    height: auto;
     /* 0 on the top and bottom, and 10rem on the sides*/
     margin: 0 10rem;
     box-sizing: border-box;
@@ -460,4 +460,17 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+/* Fix project layout wrapping */
+#projects .about-containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.details-container {
+    width: 300px;
+    max-width: 90%;
 }
